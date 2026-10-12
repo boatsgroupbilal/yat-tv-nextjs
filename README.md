@@ -29,3 +29,5 @@ Tarayıcıda `http://localhost:3000`.
 6. Uygun veri katmanını ve admin panelini ayrıca kur.
 
 Veriler `lib/data.ts` içinde demo içerik olarak bulunur. Bunlar tam haber metinleri veya aktarılan veritabanı değildir.
+
+V2: Footer için 9 eski YAT TV kategori bağlantısı eklendi. Kategori sayfalarında eski arşiv linki mevcut. Eski yazılar/veritabanı henüz aktarılmadı.
