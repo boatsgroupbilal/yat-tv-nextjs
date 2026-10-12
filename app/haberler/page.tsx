@@ -1,0 +1,2 @@
+import Link from 'next/link';import {stories} from '@/lib/data';
+export default function News(){return <main className="container innerPage"><span className="eyebrow">YAT TV / EDİTORYAL</span><h1>Son Haberler</h1><p>Denizcilik dünyasından haberler, modeller ve üreticiler.</p><div className="listing">{stories.map(s=><Link className={'listingItem '+s.theme} key={s.slug} href={'/haber/'+s.slug}><div className="miniVisual">YAT / TV</div><div><span className="tag">{s.tag}</span><h2>{s.title}</h2><p>{s.description}</p></div><b>↗</b></Link>)}</div></main>}
